@@ -1,0 +1,187 @@
+footer{
+    text-align: center;
+    color: brown;
+}
+body{
+background-color:#00A650;
+margin: 40px 70px;
+}
+h1.welcome{
+    color: #feffde;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 700;
+    font-size: 30px;
+}
+h2{
+    color: #feffde;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 700;
+    font-size: 20px;
+}
+h3{
+    color: #52734d;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 700;
+    font-size: 20px;
+}
+div.amountQuantity{
+    background-color: #feffde;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 20px;
+    border-radius: 5px;
+
+}
+div.amtQnt1 > * {
+    display: inline-block;
+    text-align:center;
+    background-color: #52734d;
+    align-items: center; 
+    align-content: center; 
+    margin: 10px 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 5px;
+
+}
+div h2.amountPending{
+    text-align: center;
+    border-radius: 5px;
+
+}
+div.amtQnt2{
+    text-align: start;
+    background-color: #52734d;
+    height: 300px;
+    margin: 10px 20px;
+    padding: 20px 20px;
+    border-radius: 5px;
+
+}
+.requests{
+    background-color: #feffde;
+    border-radius: 5px;
+    margin: 30px 0px;
+    padding: 20px 20px;
+}
+.requests1{
+    background-color: #52734d;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 10px 10px;
+}
+.newRequestsScroll{
+    height: 200px;
+    background-color: #52734d;
+    border-radius: 5px;
+}
+div.acceptedRequestsScroll{
+    height: 700px;
+    background-color: #52734d;
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+ol{
+    overflow:hidden; 
+    overflow-y:scroll;
+    background-color: #feffde;
+    border-radius: 5px;
+    height: 130px;
+    padding: 10px 40px;
+    margin: 30px 0px;
+}
+ol#delivered{
+    overflow:hidden; 
+    overflow-y:scroll;
+    background-color: #feffde;
+    border-radius: 5px;
+    height: 200px;
+    padding: 10px 40px;
+    margin: 30px 0px;
+}
+ol.newMainScroll{
+    overflow:hidden; 
+    overflow-y:scroll;
+    background-color: #52734d;
+    border-radius: 5px;
+    height: 200px;
+    padding: 0px 10px;
+    margin: 0px 0px;
+}
+div.newRequestsScroll{
+    padding: 10px 20px;
+
+}
+ol.newRequestsScroll{
+    overflow:hidden; 
+    overflow-y:scroll;
+    background-color: #feffde;
+    border-radius: 5px;
+    height: 100px;
+    padding: 10px 40px;
+    margin: 30px 0px;
+}
+button.acceptButton{
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 60px;
+    height: 35px;
+    display: inline-block;
+    background-color: #00A650;
+    font-family: "Nunito Sans";
+    /* border-color: #f8fac14a; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    /* margin: 30px 0px; */
+    cursor: pointer;
+    align-items: center;
+    vertical-align: center;
+}
+button.declineButton{
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 60px;
+    height: 35px;
+    display: inline-block;
+    background-color: #ff0800;
+    font-family: "Nunito Sans";
+    /* border-color: #f8fac14a; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    /* margin: 30px 0px; */
+    cursor: pointer;
+    align-items: center;
+    vertical-align: center;
+}
+ol.acceptedRequestsScroll{
+    height: 650px;
+    background-color: #52734d;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+button.reqStatusButton{
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    /* width: 60px; */
+    height: 35px;
+    display: inline-block;
+    background-color: #ff0800;
+    font-family: "Nunito Sans";
+    /* border-color: #f8fac14a; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0px 15px;
+    cursor: pointer;
+    align-items: center;
+    vertical-align: center;
+}
